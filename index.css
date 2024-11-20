@@ -1,0 +1,60 @@
+body {
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    height: 50vh;
+    margin: 25%;
+    
+}
+
+.scoreboard {
+    color: aliceblue;
+    background: rgb(123, 190, 118);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-style: oblique;
+  
+}
+
+.score {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fcb-btn, #rma-btn {
+    margin: 20px;
+    background-color: aliceblue;
+    color: #4CAF50;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: aliceblue;
+    color: #4CAF50;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.timer {
+    background-color: aliceblue;
+    color: #4CAF50;
+    margin: 20px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+h5, h3 {
+    font-style: oblique;
+    font-weight: lighter;
+}

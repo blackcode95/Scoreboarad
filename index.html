@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="scoreboard">
+    <h2>SCOREBOARD</h2>
+        <div class="score">
+            <div id="score-fcb">
+                <h3> FCB </h3> 
+                <!-- <img src="fcb.png" > -->
+                <h1 id="fcb-btn"> 0 </h1>
+                <button onclick="addScore(1)">Team1</button>
+
+            </div>
+            <div id="score-rma">
+                <h3> RMA </h3>
+                <!-- <img src="rma.jpg"> -->
+                <h1 id="rma-btn">  0 </h1>
+                <button onclick="addScore(2)">Team2</button>
+
+            </div>
+        </div>
+        <div >
+            <h1><span id="timer">00:00</span></h1>
+        </div>
+        <button id="startButton" onclick="startGame()">Start</button>
+        <button id="stopButton" onclick="stopGame()" disabled>Stop</button>
+        <button id="resetButton" onclick="resetGame()">Reset</button>
+
+    <h5>London Stadium</h5>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
